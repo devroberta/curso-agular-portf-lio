@@ -2,9 +2,8 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  templateUrl: './modules/portfolio/pages/home/home.component.html',
 })
 export class AppComponent {
-  title = 'curso-angular-portfolio';
+  title = "Meu Portfólio";
 }
