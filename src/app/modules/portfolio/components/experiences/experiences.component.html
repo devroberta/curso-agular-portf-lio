@@ -1,0 +1,14 @@
+<div class="container">
+  <h2>Últimas Experiências</h2>
+  <div *ngFor="let item of arrayExperiences">
+    <details>
+      <summary>
+        <p>
+          <strong>{{ item.summary.strong }}</strong>
+          {{ item.summary.p }}
+        </p>
+      </summary>
+      <article [innerHTML]="item.text"></article>
+    </details>
+  </div>
+</div>
