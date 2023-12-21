@@ -1,0 +1,17 @@
+<div class="container">
+  <h2>Projetos desenvolvidos</h2>
+
+  <ul>
+    <li *ngFor="let item of arrayProjects">
+      <button>
+        <img
+          [src]="item.src"
+          [alt]="item.alt"
+          [attr.width]="item.width"
+          [attr.height]="item.height"
+          loading="lazy"
+        />
+      </button>
+    </li>
+  </ul>
+</div>
