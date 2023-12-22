@@ -6,6 +6,7 @@ import { HeaderComponent } from './modules/portfolio/components/header/header.co
 import { KnowledgeComponent } from './modules/portfolio/components/knowledge/knowledge.component';
 import { ExperiencesComponent } from './modules/portfolio/components/experiences/experiences.component';
 import { ProjectsComponent } from './modules/portfolio/components/projects/projects.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { ProjectsComponent } from './modules/portfolio/components/projects/proje
   ],
   imports: [
     BrowserModule,
+    BrowserAnimationsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
